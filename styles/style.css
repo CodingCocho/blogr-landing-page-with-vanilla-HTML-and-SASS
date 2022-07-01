@@ -1,0 +1,344 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  background-color: white;
+  height: auto;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.main .container-1 {
+  background-color: #ff7a85;
+  background-image: url(../images/bg-pattern-intro-mobile.svg);
+  background-position: -350px -400px;
+  border-bottom-left-radius: 25%;
+  text-align: center;
+  width: 100%;
+}
+
+.main .container-1 .mobile-navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.main .container-1 #text-1 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.main .container-1 #text-1-2 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main .container-1 #text-2 {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+
+.main .container-1 .button-row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.main .container-1 .button-row #start {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  color: #ff525d;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.main .container-1 .button-row #learn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.main .container-2 {
+  text-align: center;
+  width: 100%;
+}
+
+.main .container-2 #text-3 {
+  margin-top: 50px !important;
+}
+
+.main .container-2 .heading-2 {
+  color: #1f3f5b;
+  font-family: "Overpass", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main .container-2 #editor-mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.main .container-2 .text-2 {
+  color: #4b5862;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+  padding: 0px 40px;
+}
+
+.main .container-3 {
+  background-color: #1f3f5b;
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-position: -350px -550px;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 25%;
+  margin-top: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.main .container-3 #phones-mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -175px;
+  width: 100%;
+}
+
+.main .container-3 #text-8, .main .container-3 #text-9 {
+  position: relative;
+  top: -175px;
+}
+
+.main .container-3 .heading-3 {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.main .container-3 .text-3 {
+  color: #c8c8cb;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 20px;
+  padding: 0px 40px;
+}
+
+.main .container-4 {
+  text-align: center;
+  width: 100%;
+}
+
+.main .container-4 #laptop-mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.main .container-4 .heading-4 {
+  color: #1f3f5b;
+  font-family: "Overpass", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main .container-4 .text-4 {
+  color: #4b5862;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+  padding: 0px 40px;
+}
+
+.main .container-5 {
+  background-color: #25252d;
+  border-top-right-radius: 25%;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 75px;
+  text-align: center;
+  width: 100%;
+}
+
+.main .container-5 #footer-logo {
+  margin-top: 80px;
+}
+
+.main .container-5 .footer-list {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.main .container-5 #item-1 {
+  margin-top: 20px !important;
+}
+
+.main .container-5 .footer-item {
+  color: #c8c8cb;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.main .container-5 #list-3 {
+  padding-bottom: 50px;
+}
+
+#mobile-close {
+  display: block;
+}
+
+#mobile-hamburger {
+  display: none;
+}
+
+#text-1, #text-1-2, #text-2, #start, #learn, .button-row {
+  display: none !important;
+}
+
+.mobile-menu {
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 40px;
+  width: 350px;
+}
+
+.mobile-menu .accordion-item .accordion-tab {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile-menu .accordion-item .accordion-tab .accordionTitle {
+  color: #1f3f5b;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.mobile-menu .accordion-item #tab-2, .mobile-menu .accordion-item #tab-3 {
+  margin-top: 10px;
+}
+
+.mobile-menu .accordion-item .accordion-content {
+  color: #1f3f5b;
+  background-color: #c8c8cb;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.mobile-menu .accordion-item .accordion-content p {
+  padding: 10px 40px;
+}
+
+.mobile-menu .menu-line {
+  display: block;
+  border-color: #c8c8cb;
+  border-width: 1px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.mobile-menu .menu-login {
+  display: block;
+  color: #1f3f5b;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.mobile-menu .menu-signup {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background-image: linear-gradient(to right, #ff8f70, #ff3d54);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 175px;
+}
+/*# sourceMappingURL=style.css.map */

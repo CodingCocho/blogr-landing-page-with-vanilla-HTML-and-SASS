@@ -1,0 +1,357 @@
+$color1: hsl(356, 100%, 66%);
+$color2: hsl(355, 100%, 74%);
+$color3: hsl(208, 49%, 24%);
+$color4: hsl(0, 0%, 100%);
+$color5: hsl(240, 2%, 79%);
+$color6: hsl(207, 13%, 34%);
+$color7: hsl(240, 10%, 16%);
+$gradient-color-1: hsl(13, 100%, 72%);
+$gradient-color-2: hsl(353, 100%, 62%);
+$gradient-color3: hsl(237, 17%, 21%);
+$gradient-color4: hsl(237, 23%, 32%);
+$font-1: 'Overpass', sans-serif;
+$font-2: 'Ubuntu', sans-serif;
+$font-size: 16px;
+$font-weight-1: 300;
+$font-weight-2: 400;
+$font-weight-3: 500;
+$font-weight-4: 600;
+$font-weight-5: 700;
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main
+{
+    background-color: $color4;
+    height: auto;
+    overflow: hidden;
+    width: 100vw;
+    .container-1
+    {
+        background-color: $color2;
+        background-image: url(../images/bg-pattern-intro-mobile.svg);
+        background-position: -350px -400px;
+        border-bottom-left-radius: 25%;
+        text-align: center;
+        // overflow: hidden;
+        width: 100%;
+        .mobile-navbar
+        {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 100%;
+        }
+        #text-1
+        {
+            color: $color4;
+            font-family: $font-2;
+            font-size: 1.75rem;
+            font-weight: $font-weight-2;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 50px;
+        }
+        #text-1-2
+        {
+            color: $color4;
+            font-family: $font-2;
+            font-size: 1.75rem;
+            font-weight: $font-weight-2;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #text-2
+        {
+            color: $color4;
+            font-family: $font-1;
+            font-size: $font-size;
+            font-weight: $font-weight-1;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 10px;
+        }
+        .button-row
+        {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 100px;
+            margin-top: 50px;
+            #start
+            {
+                background-color: $color4;
+                border: none;
+                border-radius: 20px;
+                color: $color1;
+                font-family: $font-2;
+                font-size: 1rem;
+                font-weight: $font-weight-3;
+                padding: 10px;
+            }
+            #learn
+            {
+                background-color: transparent;
+                border: 1px solid $color4;
+                border-radius: 20px;
+                color: $color4;
+                font-family: $font-2;
+                font-size: 1rem;
+                font-weight: $font-weight-3;
+                padding: 10px;
+            }
+        }
+    }
+    .container-2
+    {
+        text-align: center;
+        width: 100%;
+        #text-3
+        {
+            margin-top: 50px !important;
+        }
+        .heading-2
+        {
+            color: $color3;
+            font-family: $font-1;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #editor-mobile
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            width: 100%;
+        }
+        .text-2
+        {
+            color: $color6;
+            font-family: $font-1;
+            font-size: $font-size;
+            line-height: 26px;
+            margin-top: 15px;
+            padding: 0px 40px;
+        }
+    }
+    .container-3
+    {
+        background-color: $color3;
+        background-image: url(../images/bg-pattern-circles.svg);
+        background-position: -350px -550px;
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 25%;
+        border-top-right-radius: 25%;
+        margin-top: 250px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        #phones-mobile
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -175px;
+            width: 100%;
+        }
+        #text-8, #text-9
+        {
+            position: relative;
+            top: -175px;
+        }
+        .heading-3
+        {
+            color: $color4;
+            font-family: $font-1;
+            font-size: 2rem;
+            font-weight: $font-weight-1;
+            margin-top: 40px;
+        }
+        .text-3
+        {
+            color: $color5;
+            font-family: $font-1;
+            font-size: $font-size;
+            font-weight: $font-weight-1;
+            line-height: 26px;
+            margin-top: 20px;
+            padding: 0px 40px;
+        }
+    }
+    .container-4
+    {
+        text-align: center;
+        width: 100%;
+        #laptop-mobile
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 100%;
+        }
+        .heading-4
+        {
+            color: $color3;
+            font-family: $font-1;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .text-4
+        {
+            color: $color6;
+            font-family: $font-1;
+            font-size: $font-size;
+            line-height: 26px;
+            margin-top: 15px;
+            padding: 0px 40px;
+        }
+    }
+    .container-5
+    {
+        background-color: $color7;
+        border-top-right-radius: 25%;
+        color: $color4;
+        font-family: $font-2;
+        margin-top: 75px;
+        text-align: center;
+        width: 100%;
+        #footer-logo
+        {
+            margin-top: 80px;
+        }
+        .footer-list
+        {
+            font-size: $font-size;
+            font-weight: $font-weight-3;
+            margin-top: 50px;
+
+        }
+        #item-1
+        {
+            margin-top: 20px !important;
+        }
+        .footer-item
+        {
+            color: $color5;
+            font-size: $font-size;
+            font-weight: $font-weight-2;
+            margin-top: 10px;
+        }
+        #list-3
+        {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+#mobile-close
+{
+    // display: none;
+    display: block;
+}
+
+#mobile-hamburger
+{
+    // display: block;
+    display: none;
+}
+
+#text-1, #text-1-2, #text-2, #start, #learn, .button-row
+{
+    display: none !important;
+}
+
+.mobile-menu
+{
+    background-color: $color4;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 40px;
+    width: 350px;
+    .accordion-item
+    {
+        .accordion-tab
+        {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .accordionTitle
+            {
+                color: $color3;
+                font-family: $font-2;
+                font-size: 1.25rem;
+                font-weight: $font-weight-3;
+                margin-right: 10px;
+            }
+        }
+        #tab-2, #tab-3
+        {
+            margin-top: 10px;
+        }
+        .accordion-content
+        {
+            color: $color3;
+            background-color: $color5;
+            font-family: $font-2;
+            font-weight: $font-weight-3;
+            margin-top: 10px;
+            p
+            {
+                padding: 10px 40px;
+            }
+        }
+    }
+    .menu-line
+    {
+        display: block;
+        border-color: $color5;
+        border-width: 1px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .menu-login
+    {
+        display: block;
+        color: $color3;
+        font-family: $font-2;
+        font-size: 1.5rem;
+        font-weight: $font-weight-3;
+        margin-top: 40px;
+    }    
+    .menu-signup
+    {
+        background-image: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+        border: none;
+        border-radius: 20px;
+        color: $color4;
+        font-family: $font-2;
+        font-size: 1.25rem;
+        font-weight: $font-weight-3;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 175px;
+    }
+}
